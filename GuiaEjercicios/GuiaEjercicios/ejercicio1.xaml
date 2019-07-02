@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuiaEjercicios.ejercicio1" Title="Ejercicio 1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ejercicio1: Operaciones basicas con 2 numeros" />
+            <Entry x:Name="N1" Placeholder="Ingrese 1er numero"></Entry>
+            <Entry x:Name="N2" Placeholder="Ingrese 2do numero"></Entry>
+            <Button Text="Ejecutar" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
