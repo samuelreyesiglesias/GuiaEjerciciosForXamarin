@@ -7,9 +7,9 @@
              x:Class="GuiaEjercicios.Ejercicio14" Title="14">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="EJ. 14: sumar pares, del limite establecido" />
+            <Entry Keyboard="Numeric" x:Name="EntryLimite" Placeholder="Establesca un limite"></Entry>
+            <Button Text="Ejecutar" Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

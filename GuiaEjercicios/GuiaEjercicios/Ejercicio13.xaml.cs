@@ -19,5 +19,19 @@ namespace GuiaEjercicios
 */
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+            int suma,limite,i;
+            limite = Convert.ToInt32(EntryLimite.Text);
+            suma = 0;
+            i = 1;
+            while (i<=limite) {
+                suma += i;
+                i += 2;
+            }
+            DisplayAlert("Sumatoria es:", suma.ToString(), "ok");
+        }
     }
 }
