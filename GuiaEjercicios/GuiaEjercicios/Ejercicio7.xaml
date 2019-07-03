@@ -4,11 +4,15 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GuiaEjercicios.Ejercicio5_" Title="5">
+             x:Class="GuiaEjercicios.Ejercicio7" Title="7">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Ejercicio 5:App desglozar denominacion billetes, ingresamos" />
-            <Entry Text="" Placeholder="Ingresa una cantidad" x:Name="EntryCantidad"></Entry>
+            <Label Text="Ejercicio 7:**App que permita leer tres números ingresados por el usuario y que muestre como resultado
+el numero intermedio de los tres." />
+            <Entry x:Name="N1" Keyboard="Numeric" Placeholder="Ingrese 1er numero"></Entry>
+            <Entry x:Name="N2" Keyboard="Numeric" Placeholder="Ingrese 2do numero"></Entry>
+            <Entry x:Name="N3" Keyboard="Numeric" Placeholder="Ingrese 2do numero"></Entry>
+
             <Button Text="Ejecutar" Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>

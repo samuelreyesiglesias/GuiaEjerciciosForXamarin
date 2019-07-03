@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GuiaEjercicios.Ejercicio6" Title="Ejercicio 6">
+             x:Class="GuiaEjercicios.Ejercicio6" Title="6">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Ejercicio 6: Calc. sueldo considerando horas trabajadas a $10. Bono si tiene 3 o más hijos y es de $25 por cada hijo si la cantidad de hijos es menor solo recibe un bono de $15 por C/hijo." />
