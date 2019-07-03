@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GuiaEjercicios.Ejercicio11" Title="11">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Ejercicio:---App que identifique el carácter que ingrese el usuario si es un numero mensaje que mencione
+que es un Numero si es una vocal el mensaje que es una Vocal y si es cualquier otra letra
+que mencione que es una Consonante " />
+
+            <Entry Placeholder="Ingrese un caracter" x:Name="EntryCaracter" MaxLength="1"></Entry>
+            <Button Text="Ejecutar programa" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
