@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GuiaEjercicios.Ejercicio9">
+             x:Class="GuiaEjercicios.Ejercicio9" Title="9">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Ejercicio 9: Estado Civil, seleccion S: soltero, C:Casado, V:Viudo" />
