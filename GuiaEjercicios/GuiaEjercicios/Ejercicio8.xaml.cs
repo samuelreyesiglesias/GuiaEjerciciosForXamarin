@@ -20,6 +20,7 @@ namespace GuiaEjercicios
         private void Button_Clicked(object sender, EventArgs e)
         {
             string diaSeleccionado;
+            diaSeleccionado = "";
             switch (EntryDiaSemana.Text)
             {
                 case "1":
