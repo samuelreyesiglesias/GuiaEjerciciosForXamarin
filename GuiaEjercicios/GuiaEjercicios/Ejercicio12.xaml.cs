@@ -25,9 +25,9 @@ namespace GuiaEjercicios
             VarTabla = Convert.ToInt16(EntryTabla.Text);
             int i = 1;
             string VarTablaMultiplicar = "";
-            while (++i == 10)
+            while (++i <= 10)
             {
-                VarTablaMultiplicar += "\n" + VarTabla + "*" + VarTabla + "=" + VarTabla * i;
+                VarTablaMultiplicar += "\n" + VarTabla + "*" + i + "=" + VarTabla * i;
             }
             DisplayAlert("Tabla de multiplicar del:" + VarTabla, VarTablaMultiplicar, "Ok");
         }
