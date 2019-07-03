@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GuiaEjercicios.Ejercicio6" Title="Ejercicio 6">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ejercicio 6: Calc. sueldo considerando horas trabajadas a $10. Bono si tiene 3 o más hijos y es de $25 por cada hijo si la cantidad de hijos es menor solo recibe un bono de $15 por C/hijo." />
+            <Entry x:Name="EntryHorasTrabajadas" Keyboard="Numeric" Placeholder="Ingrese las horas que ha trabajado el empleado"></Entry>
+            <Entry x:Name="EntryCANTIDAD_HIJOS" Keyboard="Numeric"  Placeholder="Ingrese la cantidad de hijos del empleado"></Entry>
+            <Button Text="Calcular" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
