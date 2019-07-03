@@ -10,7 +10,7 @@
             <Label Text="Ejercicio 15: Loggin con 3 intentos" />
             <Entry x:Name="EntryUser" Placeholder="Ingrese un usuario"></Entry>
             <Entry x:Name="EntryPass" Placeholder="Ingrese una clave"></Entry>
-            <Button Clicked="Button_Clicked"></Button>
+            <Button Text="Login" Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
